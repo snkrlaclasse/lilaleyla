@@ -4,7 +4,7 @@ import Header from '../header/header'
 
 function Pagea(){
     return(
-        <View><Header/><Text>BU</Text></View>
+        <View><Header/><Text>Page A</Text></View>
     )
 }
 

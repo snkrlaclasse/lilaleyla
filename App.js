@@ -6,6 +6,7 @@ import { useAuthState } from 'react-firebase-hooks/auth'
 import firebase from './firebase/firebase'
 import {View, Text} from 'react-native'
 import Pagea from './components/pagea/pagea'
+import Pageb from './components/pageb/pageb'
 
 
 
