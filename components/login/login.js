@@ -12,7 +12,7 @@ function login() {
         firebase.auth().signInWithEmailAndPassword(email,password);
     };
 
-    
+    // LEYLA LOGIN: lilaleyla@schrumpfkopf.ch pw: 123456
     return (
         <View>
                 <View>
