@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 import {View, Button,TextInput} from 'react-native'
 import firebase from '../../firebase/firebase'
+import { GoogleSignin, GoogleSigninButton } from 'react-native-google-signin';
 
 function login() {
 
@@ -11,6 +12,9 @@ function login() {
         e.preventDefault();
         firebase.auth().signInWithEmailAndPassword(email,password);
     };
+
+
+    //This shit aint gonna work cause google sucks... react-native-google-signin isch im projekt aber ha na nüt integriert..
     let provider = new firebase.auth.GoogleAuthProvider()
     const loginwithGoogle = (e) =>{
         e.preventDefault()
