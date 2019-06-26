@@ -11,13 +11,14 @@
     "axios": "^0.19.0",
     "base-64": "^0.1.0",
     "expo": "^33.0.0",
-    "firebase": "^6.2.1",
-    "hookrouter": "^1.2.3",
+    "firebase": "^6.2.3",
     "react": "16.8.3",
     "react-dom": "^16.8.6",
     "react-firebase-hooks": "^2.0.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-33.0.0.tar.gz",
     "react-native-web": "^0.11.4",
+    "react-navigation": "^3.11.0",
+    "react-navigation-hooks": "^1.0.0-alpha.2",
     "toggle-api": "^0.0.6"
   },
   "devDependencies": {

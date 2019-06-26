@@ -11,6 +11,11 @@ function login() {
         e.preventDefault();
         firebase.auth().signInWithEmailAndPassword(email,password);
     };
+    let provider = new firebase.auth.GoogleAuthProvider()
+    const loginwithGoogle = (e) =>{
+        e.preventDefault()
+        firebase.auth().signInWithPopup(provider)
+    }
 
     // LEYLA LOGIN: lilaleyla@schrumpfkopf.ch pw: 123456
     return (
@@ -35,6 +40,9 @@ function login() {
                     <Button 
                     onPress={login} 
                     title='login'/>
+                    <Button
+                    onPress={loginwithGoogle}
+                    title='google login'/>
                 </View>
         </View>
     )
